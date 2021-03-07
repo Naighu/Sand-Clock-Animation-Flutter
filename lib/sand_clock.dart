@@ -7,11 +7,11 @@ class SandClock extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     Paint stroke = Paint()
-      ..color = Colors.yellow
+      ..color = Color(0xFFfab96e)
       ..style = PaintingStyle.stroke
       ..strokeWidth = 4;
     Paint fill = Paint()
-      ..color = Colors.yellow
+      ..color = Color(0xFFfab96e)
       ..style = PaintingStyle.fill;
 
     // Draw the flowing line..

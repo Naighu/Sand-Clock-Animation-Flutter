@@ -73,7 +73,7 @@ class _MyHomePageState extends State<MyHomePage>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: Color(0xFF333232),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -91,7 +91,7 @@ class _MyHomePageState extends State<MyHomePage>
             Container(
                 width: 300,
                 decoration:
-                    BoxDecoration(color: Colors.grey, shape: BoxShape.circle),
+                    BoxDecoration(color: Colors.white, shape: BoxShape.circle),
                 child: Transform.rotate(
                   angle: (rotateAnimation.value * math.pi) / 180,
                   child: CustomPaint(
